@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boder Image</title>
+</head>
+<style>
+    p{
+        width: 197px;
+        height: 54px;
+        border: 11px solid #ffffff;
+    }
+    p.two{
+        border-image: url("images/dots.gif") 11 11 11 11 round;
+    }
+    p.one{
+        border-image: url("images/dots.gif") 11 11 11 11 stretch;
+    }
+</style>
+<body>
+<p class="one"></p>
+<p class="two"></p>
+</body>
+</html>
